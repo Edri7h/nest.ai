@@ -1,8 +1,9 @@
 # 🧠 AI Content Generation Platform
-
-This is a full-stack AI-powered content generation platform built with **Node.js**, **TypeScript**, **Prisma**, **Clerk for auth**, and **Google Gemini API** / **ClipDrop API** for generating content like:
 <img width="400" height="400" alt="nest ai" src="https://github.com/user-attachments/assets/3f23beb9-7da5-453a-9180-0d51febfe9cb" />
 <img width="400" height="400" alt="dashboard" src="https://github.com/user-attachments/assets/b3f7fff5-b578-4ab8-a03f-f08733ba5f3d" />
+
+
+This is a full-stack AI-powered content generation platform built with **Node.js**, **TypeScript**, **Prisma**, **Clerk for auth**, and **Google Gemini API** / **ClipDrop API** for generating content like:
 
 - ✍️ AI-Generated Articles
 - 🧠 Blog Title Suggestions

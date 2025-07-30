@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  // output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Project {
+  id        String   @id @default(uuid())
+  userId    String   // Clerk user ID
+  title     String
+  type      String   // "article", "blog-title", "image", "resume", etc.
+  prompt    String?  // 🔥 User input that triggered the AI generation
+  content   String?  // Generated text output (article, titles, review, etc.)
+  imageUrl  String?  // For image generation or background removal
+  createdAt DateTime @default(now())
+}

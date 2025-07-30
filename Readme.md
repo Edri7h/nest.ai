@@ -117,15 +117,7 @@ While the project helped reinforce API calling, Prisma, Clerk, and AI integratio
 
 ---
 
-## 💡 Learnings
 
-- Working with Gemini + ClipDrop AI APIs
-- Using Clerk’s metadata system
-- Uploading image buffers and integrating with Cloudinary
-- Multer file uploads in memory
-- Managing plan-based feature access
-
----
 
 ## ⚙️ Setup
 

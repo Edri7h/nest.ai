@@ -132,7 +132,9 @@ While the project helped reinforce API calling, Prisma, Clerk, and AI integratio
 cd client 
 npm i 
 cd pern-ai-backend
-npm i 
+npm i
+
+env sample
 PORT=5000
 DATABASE_URL=your_postgres_url
 CLERK_SECRET_KEY=your_clerk_secret
@@ -141,6 +143,4 @@ CLIPDROP_API_KEY=your_clipdrop_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_key
 CLOUDINARY_API_SECRET=your_secret
-npx prisma migrate dev
 
-npm run dev
